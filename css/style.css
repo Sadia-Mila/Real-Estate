@@ -1,0 +1,711 @@
+/* Common Css Start */
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+
+a, a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ol, ul{
+    list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin:0;
+    padding:0;
+    line-height: 0.8;
+}
+
+/* Common Css End */
+
+/* Navbar Part Css Start  */
+
+.navbar{
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    z-index:50;
+}
+
+.navbar-nav .nav-link{
+    font-family: "Nunito Sans", serif;
+    font-size: 18px;
+    font-weight: 700;
+    color:#143445;
+    margin-right:20px;
+    transition:all 0.5s ease;
+}
+
+.navbar-nav .nav-link:hover{
+    color:#FF5A3C;
+}
+
+.navbar-nav .nav-link.active {
+    color:#FF5A3C;
+}
+
+.d-flex{
+    align-items: center;
+}
+
+.navbarIcon a{
+    font-size:20px;
+    color:#143445;
+    margin-right:20px;
+}
+
+.navBtn{
+    padding:12px 20px;
+    background:#FF5A3C;
+    color:#fff;
+}
+
+/* Navbar Part Css End */
+/* Banner Part Css Start  */
+#bannerPart{
+    background:linear-gradient(to right, #d7dceb 0%, #d7dceb 50%, #B9B8C2 50%, #B9B8C2 100% );
+    
+}
+ .bannerLeft{
+    padding: 340px 0px 250px 0px;
+    position:relative;
+   
+}
+.bannerleftText img{
+    margin-right:10px;
+}
+.bannerleftText a{
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 700;
+    color:#15254A;
+}
+
+.bannerleftText h1{
+    font-family: "Poppins", serif;
+    font-size:65px;
+    font-weight: 700;
+    color:#000000;
+    padding:25px 0px 30px 0px;
+    line-height:70px;
+} 
+
+ .bannerleftText h1 span{
+    color:#FF5A3C;
+}
+.bannerleftText p{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight:400;
+    color:#2C3B5E;
+    padding-bottom:30px;
+}
+.bannerBtnIcon{
+    display: flex;
+    align-items: center;
+    
+}
+
+.bannerBtnIcon i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.bannerBtnIcon a{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background:#ffff;
+    font-size:20px;
+    margin-left:30px;
+    color:#FF5A3C;
+    position:relative;
+}
+.realEstate {
+    position: absolute;
+    top: 20%;
+    left: -73%;
+}
+.boxes {
+    display: flex;
+    padding-left: 50px;
+    padding-top: 189%;
+}
+.box1{
+    width:145px;
+    height:116px;
+    border:5px solid #ffff;
+    margin-right:20px;
+}
+.box2{
+    width:145px;
+    height:116px;
+    border:5px solid #ffff;
+    margin-right:20px;
+    background:#000000;
+}
+.box3{
+    width:145px;
+    height:116px;
+    border:5px solid #fff;
+} 
+
+/* Banner Part Css End */
+/* Dream Part Css Start  */
+#dreamPart {
+    padding: 50px 0px;
+}
+.dreamImg{
+    position:relative;
+}
+.dreamImgBottom {
+    padding-top: 200px;
+}
+.dreamimgTop {
+    position: absolute;
+    top: 103px;
+    left: 20%;
+    width: 83%;
+}
+
+.dreamText{
+    padding:150px 0px;
+    padding-left:50px;
+}
+.dreamText h6{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight: 700;
+    color:#FF5A3C;
+}
+
+.dreamText h2 {
+    font-family: "Poppins", serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: #0A2C3D;
+    line-height: 46px;
+    margin: 20px 0px;
+}
+
+.dreamCard{
+    display:flex;
+    align-items: center;
+    padding:30px 50px;
+    border:1px solid rgb(174, 172, 172);
+    box-shadow: 3px 2px 9px 7px rgb(201, 201, 201);
+    margin-bottom:30px;
+}
+
+.cardImg{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    background: #fff;
+    position:relative;
+    margin-right:40px;
+    box-shadow: 0 2px 5px rgba(80, 80, 80, 0.5);
+}
+
+.cardImg img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.dreamCardBody h5 {
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #0A2C3D;
+    margin-bottom: 11px;
+}
+.dreamCardBody p {
+    font-family: "Nunito Sans", serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #5C727D;
+    line-height: 15px;
+}
+.dreamCard2{
+    background:#FF5A3C;
+    color:#fff;
+}
+
+.dreamCardBody2 h5, .dreamCardBody2 p{
+    color:#fff;
+}
+/* Dream Part Css End */
+/* Making Living Space Part Css Start  */
+#mlsPart{
+    background:linear-gradient(to right, #F3F4F7 0%, #F3F4F7 50%, #B9B8C2 50%, #B9B8C2 100% );
+    padding:80px 0px;
+    position:relative;
+}
+.mlsText h6{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight: 700;
+    color:#FF5A3C;
+}
+.mlsText h2 {
+    font-family: "Poppins", serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: #0A2C3D;
+    line-height:55px;
+    margin: 20px 0px;
+    padding-right: 446px;
+}
+
+.mlsText p {
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    padding-right: 503px;
+    margin-bottom: 30px;
+}
+
+.spaceInfo {
+    padding: 15px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.rightIcon{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    background:#F5DFDC;
+    text-align: center;
+    top:50%;
+}
+.spaceInfo p {
+    font-family: "Nunito Sans", serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19px;
+    margin-left: 14px;
+    width: 183px;
+}
+
+.bigGollah{
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    background:#FF5A3C;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+/* Making Living Space Part Css End */
+/* Main Focus Part Css Start  */
+#mFocusPart{
+    padding: 120px 0px;
+}
+.mainFocusTop{
+    text-align:center;
+}
+.mainFocusTop h6{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight: 700;
+    color:#FF5A3C;
+}
+.mainFocusTop h3{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A2C3D;
+    line-height:55px;
+    margin-top:20px;
+    margin-bottom:90px;   
+}
+.mainFocusBottom{
+    text-align: center;
+    padding:40px 20px;
+    border:1px solid rgb(240, 238, 238);
+    box-shadow: 2px 3px 8px 4px rgb(229, 229, 229);;
+}
+.mainFocusBottom h5{
+    font-family: "Poppins", serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+    padding:25px 0px 20px 0px;
+}
+.mainFocusBottom p{
+    font-family: "Nunito Sans", serif;
+    font-size:16px;
+    font-weight:400;
+    color:#5C727D;
+    line-height:20px;
+    margin-bottom:35px;
+}
+.mainFocusBottom a{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight:700;
+    color:#FF5A3C
+}
+
+.mFocusBottom{
+    display:flex;
+    justify-content: space-between;
+}
+
+.mainFocusBottomSecond{
+    border-bottom: 4px solid #FF5A3C;
+}
+
+/* Main Focus Part Css End */
+
+/* Upcoming Project Part Css Start  */
+#upcomingProjectPart {
+    background: linear-gradient(to bottom, #6B6B71 0%, #6B6B71 75%, #ffff 75%, #ffff 100% );
+    padding-top: 90px;
+}
+
+.upcomingProjectTop h6{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight: 700;
+    color:#FF5A3C;
+}
+.upcomingProjectTop h2 {
+    font-family: "Poppins", serif;
+    font-size: 37px;
+    font-weight: 700;
+    color: #0A2C3D;
+    line-height: 46px;
+    margin: 20px 0px;
+    color:#fff;
+}
+
+.upcomingProjectTopRight{
+    display:flex;
+    margin-top:40px;
+}
+
+.upcomingProjectarrowLeft{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background:#fff;
+    position:relative;
+    margin-right:40px;
+}
+.upcomingProjectarrowLeft a{
+    font-size:20px;
+    color:#FF5A3C;
+}
+.upcomingProjectarrowLeft a i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.upcomingProjectarrowRight{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background:#FF5A3C;
+    position:relative;
+}
+.upcomingProjectarrowRight a{
+    font-size:20px;
+    color:#fff;
+}
+.upcomingProjectarrowRight a i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.upcomingTopBox {
+    margin-top: 40px;
+    width: 90%;
+    height: 600px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    box-shadow: 2px 3px 8px 2px #959393;
+}
+.leftImg {
+    width: 56%;
+    background: #B9B8C2;
+    position: relative;
+}
+.upcomImgRount{
+    width:100px;
+    height:100px;
+    border-radius:50%;
+    border:5px solid #fff;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.bottomBoxes {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 412px;
+}
+.box4{
+    width:145px;
+    height:116px;
+    border:5px solid #ffff;
+    margin-right:20px;
+}
+.box5{
+    width:145px;
+    height:116px;
+    border:5px solid #ffff;
+    margin-right:20px;
+    background:#000000;
+}
+.box6{
+    width:145px;
+    height:116px;
+    border:5px solid #fff;
+} 
+.rightText {
+    background: #F3F4F7;
+    width: 42%;
+    margin-left: 20px;
+    padding: 70px 30px;
+}
+.rightText h6{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight: 700;
+    color:#FF5A3C;
+}
+
+.rightText h4{
+    font-family: "Poppins", serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #0A2C3D;
+    line-height: 46px;
+    margin: 20px 0px;
+}
+.catagoryInfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.catagoryInfo h6{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #0A2C3D;
+    margin: 20px 0px;
+}
+.catagoryInfo p {
+    font-family: "Nunito Sans", serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0A2C3D;
+    margin: 20px 0px;
+}
+.upcomingProjectBtn{
+    display:inline-block;
+    padding:8px 12px;
+    background:#FF5A3C;
+    margin-top:30px;
+}
+
+.upcomingProjectBtn a{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+   
+}
+
+.upcomingProjectBtn a img{
+    margin-left:15px;
+}
+/* Upcoming Project Part Css End */
+/* Apartment Plan Part Css Start  */
+#apartmentPlanPart{
+    padding:80px 0px;
+}
+.appPlanTop{
+    text-align: center;
+}
+
+.appPlanTop h6{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight: 700;
+    color:#FF5A3C;
+}
+.appPlanTop h4{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #0A2C3D;
+    line-height:55px;
+    margin-top:20px;
+    margin-bottom:20px;  
+}
+
+.appPlanNav ul li{
+    display:inline-block;
+    margin-right:20px;
+}
+
+.appPlanNav ul li a{
+    font-family: "Nunito Sans", serif;
+    font-size:20px;
+    font-weight: 700;
+    color:#0A2C3D;
+}
+
+.appPlanNav ul li>.appPlanNavActive a{
+    color:red;
+}
+
+.apartmentPlanLeft{
+    padding:106px 57px;
+    background:#F3F4F7;
+}
+
+.apartmentPlanLeft h4{
+    font-family: "Poppins", serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom:30px;  
+}
+.apartmentPlanLeft{
+    margin-top:40px;
+}
+
+.apartmentPlanLeft p{
+    font-family: "Nunito Sans", serif;
+    font-size:16px;
+    font-weight:400;
+    color:#5C727D;
+    line-height:20px;
+    margin-bottom:20px;
+}
+.deluxPositionInfo{
+    padding:20px 0px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.deluxPositionInfo h5{
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    font-weight:500;
+    color:#000000;
+}
+
+.apartmentPlanRight{
+    padding:55px 40px;
+}
+/* Apartment Plan Part Css End */
+/* Area Property Part Css Start  */
+#areaProperty{
+    padding-top:116px;
+    padding-bottom:80px;
+    background:#F3F4F7 ;
+}
+
+.areaPropertyTop h6{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight:700;
+    color:#FF5A3C;
+    margin-bottom:30px;
+}
+.areaPropertyTop h4{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight:700;
+    color:#000000;
+    line-height: 70px;
+    margin-bottom:40px;
+    padding-right:660px;
+}
+.areaPropertyBottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.areaPropertyCard{
+    padding:20px;
+    box-shadow: 2px 3px 8px 2px #959393;
+
+}
+.aPcardTop{
+    background:#B9B8C2;
+    height:334px;
+    position:relative;
+}
+.aPcardTop p{
+    font-family: "Nunito Sans", serif;
+    font-size:11px;
+    font-weight:700;
+    color:#0F1B43;
+    padding:10px 20px;
+    background:#fff;
+    border-radius: 10px;
+    position:absolute;
+    top:20px;
+    left:20px;
+}
+.apCardBody {
+    padding: 20px 0px;
+}
+
+.apCardBody h4{
+    font-family: "Poppins", serif;
+    font-size: 22px;
+    font-weight:700;
+    color:#0F1B43;
+    margin-top:30px;
+    margin-bottom:22px;
+}
+
+.apCardBody p{
+    font-family: "Nunito Sans", serif;
+    font-size:16px;
+    font-weight:400;
+    color:#5C727D;
+    line-height:20px;
+    margin-bottom:35px;
+}
+.apCardBody a{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight:700;
+    color:#FF5A3C
+}
+.apCardBody a i{
+    margin-left:10px;
+}
+
+
+
+
+/* Area Property Part Css End */
+/* Navbar Part Css Start  */
+/* Navbar Part Css End */
