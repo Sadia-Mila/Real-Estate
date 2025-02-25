@@ -26,13 +26,13 @@ h1, h2, h3, h4, h5, h6, p{
 
 /* Navbar Part Css Start  */
 
-.navbar{
+/* .navbar{
     position:fixed;
     width:100%;
     top:0;
     left:0;
     z-index:50;
-}
+} */
 
 .navbar-nav .nav-link{
     font-family: "Nunito Sans", serif;
@@ -70,13 +70,12 @@ h1, h2, h3, h4, h5, h6, p{
 /* Navbar Part Css End */
 /* Banner Part Css Start  */
 #bannerPart{
-    background:linear-gradient(to right, #d7dceb 0%, #d7dceb 50%, #B9B8C2 50%, #B9B8C2 100% );
-    
-}
- .bannerLeft{
     padding: 340px 0px 250px 0px;
+    background: url(../images/slider1.png) no-repeat;
+    background-size: cover;
+    background-position: center;
     position:relative;
-   
+    
 }
 .bannerleftText img{
     margin-right:10px;
@@ -130,15 +129,29 @@ h1, h2, h3, h4, h5, h6, p{
     color:#FF5A3C;
     position:relative;
 }
+.socialIcon {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left:5%;
+    bottom:6%;
+}
+.socialIcon a{
+    font-size:20px;
+    color:#15254A;
+    padding-bottom:10px;
+
+}
 .realEstate {
     position: absolute;
-    top: 20%;
-    left: -73%;
+    top: 12%;
+    left: -12%;
 }
 .boxes {
     display: flex;
     padding-left: 50px;
-    padding-top: 189%;
+    position: absolute;
+    bottom: 40px;
 }
 .box1{
     width:145px;
@@ -162,24 +175,12 @@ h1, h2, h3, h4, h5, h6, p{
 /* Banner Part Css End */
 /* Dream Part Css Start  */
 #dreamPart {
-    padding: 50px 0px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
-.dreamImg{
-    position:relative;
-}
-.dreamImgBottom {
-    padding-top: 200px;
-}
-.dreamimgTop {
-    position: absolute;
-    top: 103px;
-    left: 20%;
-    width: 83%;
-}
-
-.dreamText{
-    padding:150px 0px;
-    padding-left:50px;
+.dreamText {
+    padding: 59px 0px;
+    padding-left: 54px;
 }
 .dreamText h6{
     font-family: "Nunito Sans", serif;
@@ -187,7 +188,6 @@ h1, h2, h3, h4, h5, h6, p{
     font-weight: 700;
     color:#FF5A3C;
 }
-
 .dreamText h2 {
     font-family: "Poppins", serif;
     font-size: 37px;
@@ -196,16 +196,14 @@ h1, h2, h3, h4, h5, h6, p{
     line-height: 46px;
     margin: 20px 0px;
 }
-
-.dreamCard{
-    display:flex;
+.dreamCard {
+    display: flex;
     align-items: center;
-    padding:30px 50px;
-    border:1px solid rgb(174, 172, 172);
+    padding: 30px 50px;
+    border: 1px solid rgb(174, 172, 172);
     box-shadow: 3px 2px 9px 7px rgb(201, 201, 201);
-    margin-bottom:30px;
+    margin-bottom: 17px;
 }
-
 .cardImg{
     width:60px;
     height:60px;
@@ -247,7 +245,9 @@ h1, h2, h3, h4, h5, h6, p{
 /* Dream Part Css End */
 /* Making Living Space Part Css Start  */
 #mlsPart{
-    background:linear-gradient(to right, #F3F4F7 0%, #F3F4F7 50%, #B9B8C2 50%, #B9B8C2 100% );
+    background:url(../images/mlsbg.png) no-repeat;
+    background-position: center;
+    background-size: cover;
     padding:80px 0px;
     position:relative;
 }
@@ -259,12 +259,12 @@ h1, h2, h3, h4, h5, h6, p{
 }
 .mlsText h2 {
     font-family: "Poppins", serif;
-    font-size: 37px;
+    font-size: 46px;
     font-weight: 700;
     color: #0A2C3D;
-    line-height:55px;
+    line-height: 55px;
     margin: 20px 0px;
-    padding-right: 446px;
+    width: 521px;
 }
 
 .mlsText p {
@@ -272,7 +272,7 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 16px;
     font-weight: 400;
     line-height: 29px;
-    padding-right: 503px;
+    width: 559px;
     margin-bottom: 30px;
 }
 
@@ -281,6 +281,7 @@ h1, h2, h3, h4, h5, h6, p{
     display: flex;
     align-items: center;
 }
+
 
 .rightIcon{
     width:30px;
@@ -298,17 +299,25 @@ h1, h2, h3, h4, h5, h6, p{
     margin-left: 14px;
     width: 183px;
 }
-
-.bigGollah{
-    width:100px;
-    height:100px;
+.mLSvideoIcon {
+    width: 70PX;
+    height: 70px;
     border-radius: 50%;
-    background:#FF5A3C;
+    background: #FF5A3C;
+    position: absolute;
+    top: 51%;
+    left: 55%;
+    transform: translate(-51%, -55%);
+}
+.mLSvideoIcon a{
+    font-size:30px;
+    color:#fff;
     position:absolute;
     top:50%;
     left:50%;
-    transform:translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
+
 
 /* Making Living Space Part Css End */
 /* Main Focus Part Css Start  */
@@ -374,8 +383,10 @@ h1, h2, h3, h4, h5, h6, p{
 
 /* Upcoming Project Part Css Start  */
 #upcomingProjectPart {
-    background: linear-gradient(to bottom, #6B6B71 0%, #6B6B71 75%, #ffff 75%, #ffff 100% );
-    padding-top: 90px;
+   padding-top: 90px;
+   background:url(../images/upcomingBottom.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
 }
 
 .upcomingProjectTop h6{
@@ -437,7 +448,7 @@ h1, h2, h3, h4, h5, h6, p{
 .upcomingTopBox {
     margin-top: 40px;
     width: 90%;
-    height: 600px;
+    height: 524px;
     background: #fff;
     margin: 0 auto;
     padding: 20px;
@@ -486,7 +497,7 @@ h1, h2, h3, h4, h5, h6, p{
     background: #F3F4F7;
     width: 42%;
     margin-left: 20px;
-    padding: 70px 30px;
+    padding: 47px 30px;
 }
 .rightText h6{
     font-family: "Nunito Sans", serif;
@@ -495,32 +506,32 @@ h1, h2, h3, h4, h5, h6, p{
     color:#FF5A3C;
 }
 
-.rightText h4{
+.rightText h4 {
     font-family: "Poppins", serif;
     font-size: 30px;
     font-weight: 700;
     color: #0A2C3D;
     line-height: 46px;
-    margin: 20px 0px;
+    margin: 8px 0px;
 }
 .catagoryInfo{
     display: flex;
     justify-content: space-between;
 }
 
-.catagoryInfo h6{
+.catagoryInfo h6 {
     font-family: "Poppins", serif;
     font-size: 16px;
     font-weight: 700;
     color: #0A2C3D;
-    margin: 20px 0px;
+    margin: 15px 0px;
 }
 .catagoryInfo p {
     font-family: "Nunito Sans", serif;
     font-size: 15px;
     font-weight: 400;
     color: #0A2C3D;
-    margin: 20px 0px;
+    margin: 15px 0px;
 }
 .upcomingProjectBtn{
     display:inline-block;
@@ -559,10 +570,10 @@ h1, h2, h3, h4, h5, h6, p{
     font-family: "Poppins", serif;
     font-size: 48px;
     font-weight: 700;
-    color: #0A2C3D;
+    color: #000000;
     line-height:55px;
     margin-top:20px;
-    margin-bottom:20px;  
+    margin-bottom:20px; 
 }
 
 .appPlanNav ul li{
@@ -643,7 +654,8 @@ h1, h2, h3, h4, h5, h6, p{
     color:#000000;
     line-height: 70px;
     margin-bottom:40px;
-    padding-right:660px;
+    width:575px;
+    
 }
 .areaPropertyBottom{
     display: flex;
@@ -656,9 +668,12 @@ h1, h2, h3, h4, h5, h6, p{
 
 }
 .aPcardTop{
-    background:#B9B8C2;
+   position:relative;
+}
+.areaPropertyCardImg img{
+    width:256px;
     height:334px;
-    position:relative;
+
 }
 .aPcardTop p{
     font-family: "Nunito Sans", serif;
@@ -676,13 +691,13 @@ h1, h2, h3, h4, h5, h6, p{
     padding: 20px 0px;
 }
 
-.apCardBody h4{
+.apCardBody h4 {
     font-family: "Poppins", serif;
     font-size: 22px;
-    font-weight:700;
-    color:#0F1B43;
-    margin-top:30px;
-    margin-bottom:22px;
+    font-weight: 700;
+    color: #0F1B43;
+    margin-top: 3px;
+    margin-bottom: 9px;
 }
 
 .apCardBody p{
@@ -702,10 +717,646 @@ h1, h2, h3, h4, h5, h6, p{
 .apCardBody a i{
     margin-left:10px;
 }
-
-
-
-
 /* Area Property Part Css End */
-/* Navbar Part Css Start  */
-/* Navbar Part Css End */
+/* Available Space Part Css Start  */
+#availableSpacePart{
+    padding:60px 0px
+}
+
+.avaSpaceTop{
+    text-align: center;
+}
+
+.avaSpaceTop h6{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight:700;
+    color:#FF5A3C
+
+}
+.avaSpaceTop h4{
+    font-family: "Poppins", serif;
+    font-size:48px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom:60px;
+}
+.column{
+    text-align: center;
+
+}
+
+.column h6{
+    font-family: "Titillium Web", serif;
+    font-size:20px;
+    font-weight:700;
+    color: #0A2C3D;
+    margin-bottom:30px;
+    position:relative;
+}
+.column h6::after{
+    position:absolute;
+    content:'';
+    bottom:-10px;
+    left:0px;
+    width:120%;
+    height:3px;
+    background:#93A4C1;
+}
+.column p{
+    font-family: "Nunito Sans", serif;
+    font-size:16px;
+    font-weight:700;
+    margin-bottom: 20px;
+    color:#5C727D;
+
+}
+
+/* Available Space Part Css End */
+/* Neighbour Part Css Start */
+#neighbourPart{
+    padding:80px 0px;
+    background:#F3F4F7;
+}
+
+.neighbourTop h6{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight:700;
+    color:#FF5A3C;
+    margin-bottom:30px;
+}
+.neighbourTop h4{
+    font-family: "Poppins", serif;
+    font-size: 48px;
+    font-weight:700;
+    color:#000000;
+    line-height: 70px;
+    margin-bottom:40px;
+    width:575px;
+}
+.nRightcardTop{
+    position:relative;
+}
+
+.nRightcardTop p{
+    font-family: "Nunito Sans", serif;
+    font-size:11px;
+    font-weight:700;
+    color:#0F1B43;
+    padding:10px 20px;
+    background:#fff;
+    border-radius: 10px;
+    position:absolute;
+    top:20px;
+    left:20px;
+}
+
+.naighborImgLeft img{
+    width:625px;
+}
+.naighborRightCard {
+    padding: 10px;
+    box-shadow: 2px 3px 8px 2px #959393;
+}
+
+.nRightcardTop img {
+    height: 240px;
+    width: 276px;
+}
+.nRightCardBody{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+.nRightCardBody h4 {
+    font-family: "Titillium Web", serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #0A2C3D;
+    margin-bottom: 14px;
+}
+.nRightCardBody h6 {
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.nRightCardBody h6 span{
+    color:#FF5A3C;
+}
+.nRightCardBody p {
+    font-family: "Nunito Sans", serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.nRightCardBody a{
+    font-family: "Nunito Sans", serif;
+    font-size:15px;
+    font-weight:700;
+    color:#FF5A3C
+}
+.nRightCardBody a i{
+    margin-left:10px;
+}
+.neighbourItems{
+    display:flex;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+.neItemImg{
+    width:40px;
+    height:40px;
+    background:#FF5A3C;
+    position:relative;
+}
+.neItemImg img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.neighbourItems h6{
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight:700;
+    color:#0A2C3D;
+    margin-left: 20px;
+}
+/* Neighbour Part Css End */
+/* Aminities Part Css Start */
+#aminitiesPart{
+    padding:80px 0px;
+}
+
+.aminitiesTop{
+    text-align: center;
+}
+.aminitiesTop h6{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight:700;
+    color:#FF5A3C
+
+}
+.aminitiesTop h4{
+    font-family: "Poppins", serif;
+    font-size:48px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom:60px;
+}
+.aminitiesCard{
+    padding:15px;
+    background:#F1F1F1;
+    position:relative;
+    box-shadow: 2px 3px 8px 2px #959393;
+    transition:all 0.5s ease;
+    margin-bottom:30px;
+}
+.aminitiesCard:hover{
+    background: #FF5A3C;
+}
+
+.cardIcon{
+    width:60px;
+    height:60px;
+    border-radius: 50%;
+    background:#ffff;
+    position:relative;
+    left:65%;
+}
+
+.cardIcon img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.aminitiCardBody{
+    margin-top: 20px;
+
+}
+.aminitiCardBody h6{
+    font-family: "Poppins", serif;
+    font-size:20px;
+    font-weight: 700;
+    color: #FF5A3C;
+    margin-bottom: 10px;
+}
+.aminitiCardBody h4{
+    font-family: "Poppins", serif;
+    font-size:22px;
+    font-weight:700;
+    color: #0A2C3D;
+    margin-bottom: 10px;
+}
+
+.aminitiCardBody p{
+    font-family: "Nunito Sans", serif;
+    font-size:14px;
+    font-weight:400;
+    color: #5C727D;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+/* Aminities Part Css End */
+/* Client Testimonial Part Css Start */
+#cTestiPart {
+    padding: 90px 0px 130px 0px;
+    background:url(../images/clientBg.jpg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    margin-bottom:100px;
+    position:relative;
+}
+ 
+ .cTestiTop h6{
+     font-family: "Nunito Sans", serif;
+     font-size:18px;
+     font-weight: 700;
+     color:#FF5A3C;
+ }
+ .cTestiTop h2 {
+    font-family: "Poppins", serif;
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 53px;
+    margin: 20px 0px;
+    color: #fff;
+    padding-right: 35px;
+}
+ 
+ .cTesRight{
+     display:flex;
+     margin-top:40px;
+ }
+ 
+ .cTesRightarrowLeft{
+     width:50px;
+     height:50px;
+     border-radius: 50%;
+     background:#fff;
+     position:relative;
+     margin-right:40px;
+ }
+ .cTesRightarrowLeft a{
+     font-size:20px;
+     color:#FF5A3C;
+ }
+ .cTesRightarrowLeft a i{
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);
+ }
+ .cTesRightarrowRight{
+     width:50px;
+     height:50px;
+     border-radius: 50%;
+     background:#FF5A3C;
+     position:relative;
+ }
+ .cTesRightarrowRight a{
+     font-size:20px;
+     color:#fff;
+ }
+ .cTesRightarrowRight a i{
+     position:absolute;
+     top:50%;
+     left:50%;
+     transform: translate(-50%, -50%);
+ }
+ .clientTestiContainer{
+    position:relative;
+ }
+ .clientTestiRow{
+    position:absolute;
+    top:180px;
+}
+.clientTestimonial {
+    background: #ffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 8px 2px #959393;
+}
+ .testiTopLeft{
+    display:flex;
+    align-items: center;
+ }
+.testiTopLeft img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+.testiTopLeftText{
+    display:flex;
+    flex-direction: column;
+}
+.testiTopLeftText h5{
+    font-family: "Poppins", serif;
+    font-size:20px;
+    font-weight: 700;
+    color: #051441;
+    margin-left:20px;
+    margin-bottom:15px;
+}
+.testiTopLeftText h6{
+    font-family: "Nunito Sans", serif;
+    font-size:13px;
+    font-weight:400;
+    color:#677294;
+    margin-left:20px;
+}
+.clientTextiTop{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testiBottom p {
+    font-family: "Nunito Sans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C727D;
+    line-height: 25px;
+    margin-top: 20px;
+}
+/* Client Testimonial Part Css End */
+/* News and Blog Part Css Start */
+#blogPart{
+    padding:130px 0px 50px 0px;
+}
+.blogTop{
+    text-align: center;
+}
+.blogTop h6{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight:700;
+    color:#FF5A3C
+}
+.blogTop h4{
+    font-family: "Poppins", serif;
+    font-size:48px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 20px;
+    margin-bottom:60px;
+}
+.blogCardFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.blogCard{
+    padding:15px;
+    box-shadow: 2px 3px 8px 2px #959393;
+}
+.blogCardTop Img{
+    width:100%;
+}
+.blogCardTopRow{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:20px;
+}
+.admin{
+    display:flex;
+    align-items: center;
+}
+
+.admin a{
+    font-size:20px;
+    color:#FF5A3C
+}
+
+.admin p{
+    font-family: "Nunito Sans", serif;
+    font-size:13px;
+    font-weight:700;
+    color: #647589;
+    margin-left:15px;
+}
+
+.cardBodyText h5 {
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #0A2C3D;
+    margin-top: 13px;
+    margin-bottom: 6px;
+}
+.blogCardBodyBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -7px;
+    margin-bottom:20px;
+}
+.date{
+    display:flex;
+    align-items: center;
+}
+.date a{
+    font-size:20px;
+    color:#FF5A3C
+}
+.date p{
+    font-family: "Nunito Sans", serif;
+    font-size:13px;
+    font-weight:700;
+    color: #647589;
+    margin-left:15px;
+}
+.blogCardReadMore a{
+    font-family: "Nunito Sans", serif;
+    font-size:13px;
+    font-weight:700;
+    color: #FF5A3C;
+}
+/* News and Blog Part Css End */
+/* Looking for a Dream Home Part Css Start */
+#lookingDHPart{
+    padding:50px 0px;
+    position:relative;
+}
+
+.ldhFlex{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:35px 40px;
+    background:#FF5A3C;;
+}
+.ldhLeft h4{
+    font-family: "Poppins", serif;
+    font-size:36px;
+    font-weight:700;
+    color: #ffff;
+    margin-bottom:20px;
+}
+.ldhLeft p{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight:400;
+    color:#ffff;
+}
+.ldhRight button{
+    padding:15px 30px;
+    border:none;
+    background:#FFFFFF;
+    transition:all 0.5s ease;
+}
+.ldhRight button:hover{
+    background:#000000;
+}
+.ldhRight button a{
+    font-family: "Nunito Sans", serif;
+    font-size:18px;
+    font-weight:400;
+    color:#FF5A3C;
+    margin-right:15px;
+    transition:all 0.5s ease;
+}
+.ldhRight button a:hover{
+    color:#ffff;
+}
+.lfdhRow{
+    position:absolute;
+    width:100%;
+}
+.lfdhcontainer{
+    position:relative;
+}
+/* Looking for a Dream Home Part Css End */
+/* Footer Part Css Start */
+#footerPart{
+    padding: 150px 0px 50px 0px;
+    background: #171B2A;
+    color:#fff;
+}
+.footerLeft{
+    color:#fff;
+}
+
+.footerLeft h4, .footerSecondColumn h4, .footerThirdColumn h4{
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footerLeft p{
+    font-family: "Nunito Sans", serif;
+    font-size:16px;
+    font-weight:400;
+    line-height: 25px;
+    margin-bottom:40px;
+}
+
+.footerLeftIcon a{
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background:#ffff;
+    font-size:20px;
+    color:#000000;
+    position:relative;
+    transition:all 0.5s ease;
+}
+
+.footerLeftIcon a:hover{
+    background:#FF5A3C;
+    color:#ffff;
+}
+
+.footerLeftIcon a i{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);  
+}
+
+.footerSecondColumn p, .footerThirdColumn p{
+    font-family: "Nunito Sans", serif;
+    font-size:16px;
+    font-weight:400;
+    line-height:30px;
+}
+
+.footerRight p{
+    font-family: "Nunito Sans", serif;
+    font-size:16px;
+    font-weight:400;
+    line-height:25px;
+    margin-bottom:20px;
+    margin-top:15px;
+}
+.footerRightLocationIcon{
+    display: flex;
+    align-items: center;
+    margin-bottom:40px;
+}
+.footerRightLocationIcon a{
+    font-size:20px;
+    color:#fff;
+    margin-right:15px;
+}
+.footerRightLocationIcon p {
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 8px;
+}
+.footerRightBtn button{
+    padding:20px 15px;
+    background:#ffff;
+    transition: all 0.5s ease;
+}
+.footerRightBtn button:hover{
+    background:#FF5A3C;
+    color:#fff;
+}
+.footerRightBtn button a:hover{
+    color:#fff;
+}
+
+.footerRightBtn button a{
+    font-family: "Nunito Sans", serif;
+    font-size:16px;
+    font-weight:400;
+    margin-right:30px;
+    color:#42518B;
+    transition:all 0.5s ease;
+}
+.footerRightBtn button span{
+    font-family: "Nunito Sans", serif;
+    font-size:15px;
+    font-weight:400;
+    padding: 10px 10px;
+    background:#FF5A3C;
+    color:#ffff;
+    transition: all 0.5s ease;
+}
+.footerRightBtn button span:hover{
+    background:#000000;
+}
+
+
+
+
+
+
+/* Footer Part Css End */
+/* Looking for a Dream Home Part Css Start */
+/* Looking for a Dream Home Part Css End */
+/* Looking for a Dream Home Part Css Start */
+/* Looking for a Dream Home Part Css End */

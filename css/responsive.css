@@ -1,34 +1,234 @@
 
-/* Responsive bootstrap 4.6 (breakpoint min and max break point) */
+/* Responsive bootstrap 5.3 (breakpoint max-width break point) */
 
+/* x-large devices*/
+@media (max-width: 1399.98px){
+    
+}
+/* large devices */
+@media (max-width: 1199.98px) {
 
-/* Extra large devices */
-@media (min-width: 1200px) { ... }
+}
+/* medium devices */
+@media (max-width: 991.98px){
 
+}
 
-
-
-/* Large devices */
-@media (min-width:992px) and (max-width:1199.98px){
+/* small devices */
+@media (max-width: 767.98px){
 
 }
 
 
 
-/* Medium devices */
-@media (min-width:768px) and (max-width:991.98px){
+/* x-small devices */
+@media (max-width: 575.98px){
 
+.navbar-toggler i{
+    color:#FF5A3C;
+
+}
+.navbar-nav{
+    background:#FF5A3C;
+    text-align: center;
+    border-radius: 10px;
+}
+.navbar-nav .nav-link{
+	color: #fff;
+	
+}
+.navbar-nav .nav-link.active {
+	color: #fff;
+}
+.navbarIconButton{
+    justify-content: center;
+}
+/* Banner Part Start */
+.realEstate img{
+    width:50%;
+}
+.realEstate {
+	top: 0%;
+	left: -1%;
+}
+#bannerPart {
+	padding: 216px 0px 37px 0px;
+}
+.bannerleftText h1 {
+	font-size: 28px;
+	padding: 1px 0px 14px 0px;
+	width: 270px;
+	line-height: 41px;
+}
+.socialIcon {
+	flex-direction: row;
+	left: 3%;
+	bottom: 0%;
+}
+
+.socialIcon a {
+	font-size: 14px;
+	padding-right: 10px;
+}
+.navBtn {
+	padding: 8px 12px;
+}
+
+.boxes {
+	display: none;
+}
+/* Dream Part Start */
+.dreamText{
+    text-align: center;
+}
+.dreamText h2 {
+	font-size: 24px;
+}
+.dreamCard {
+	margin-right: 10%;
+}
+/* Making Living Space Part Start */
+
+#mlsPart {
+	padding: 46px 0px;
+}
+.mlsText h2 {
+	font-size: 26px;
+	line-height: 34px;
+	margin: 18px 0px;
+	width: 290px;
+}
+.mlsText p {
+	font-size: 14px;
+	line-height: 23px;
+	width: 314px;
+	margin-bottom: 8px;
+}
+.mLSvideoIcon {
+	top: 43%;
+	left: 63%;
+	transform: translate(-43%, -63%);
+}
+
+/* Main Focus Part Start */
+#mFocusPart {
+	padding: 60px 0px;
+}
+.mainFocusTop h3 {
+	font-size: 42px;
+	Line-height: 35px;
+	margin-top: 16px;
+	margin-bottom: 31px;
+}
+.mainFocusBottom {
+	margin-bottom: 40px;
+}
+
+/* Upcoming Part Start */
+
+#upcomingProjectPart {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.upcomingProjectTop{
+    text-align: center;
+}
+.upcomingProjectTop h2 {
+	font-size: 19px;
+	line-height: 18px;
+	margin: 14px 0px;
+}
+.upcomingProjectTopRight {
+	margin-top: 22px;
+	margin-bottom: 26px;
+	justify-content: center;
+}
+.upcomingTopBoxImg{
+    display: none;
+}
+.leftImg {
+	width: 0%;
+	background: #fff;
+}
+.rightText {
+	background: #F3F4F7;
+	width: 100%;
+	margin-left: 0px;
+	padding: 24px 27px;
+	text-align: center;
+}
+/* Apartment Plan Part Start */
+
+/* Area Property Part Start  */
+#areaProperty {
+	padding-top: 67px;
+	padding-bottom: 54px;
+}
+.areaPropertyBottom {
+	width: 100%;
+	margin: 0 auto;
+}
+.areaPropertyTop h6 {
+	text-align: center;
+}
+.areaPropertyTop h4 {
+	font-size: 39px;
+	line-height: 50px;
+	margin-bottom: 40px;
+	width: 100%;
+	text-align: center;
+}
+.areaPropertyCardImg img {
+	width: 100%;
+}
+.areaPropertyCard {
+	padding: 20px;
+	box-shadow: 2px 1px 3px 2px #959393;
+	margin-bottom: 30px;
+}
+/* Available Spaces Part Start */
+
+.avaSpaceTop h4 {
+	font-size: 39px;
+	font-weight: 700;
+	margin-top: 17px;
+	margin-bottom: 48px;
+}
+/* Explore Neighbour Part Start */
+
+#neighbourPart {
+	padding: 40px 0px;
+}
+.neighbourTop{
+    text-align: center;
+}
+.neighbourTop h6 {
+	margin-bottom: 14px;
+}
+
+.neighbourTop h4 {
+	font-size: 40px;
+	line-height: 59px;
+	margin-bottom: 25px;
+}
+.naighborImgLeft img {
+	width: 100%;
+	margin-bottom: 30px;
+}
+.nRightcardTop img {
+	height: auto;
+	width: 100%;
+}
+.nRightCardBody {
+	text-align: center;
 }
 
 
 
-/* Small devices */
-@media (min-width:576px) and (max-width:767.98px){
 
-}
 
-/* Extra small devices */
-@media (min-width:320px) and (max-width:575.98px){
+
+
 
 
 
