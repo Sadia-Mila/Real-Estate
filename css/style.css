@@ -23,16 +23,33 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 /* Common Css End */
+/* sticky Top part Css start */
+.sticky_header{
+    background: #fff;
+    animation: alamin 1s;
+    }
+
+    @keyframes alamin{
+    from{
+    top: -100px;
+    }
+    to{
+    top: 0;
+    }
+    }
+
+
+/* sticky Top part Css End */
 
 /* Navbar Part Css Start  */
 
-/* .navbar{
+.navbar{
     position:fixed;
     width:100%;
     top:0;
     left:0;
     z-index:50;
-} */
+}
 
 .navbar-nav .nav-link{
     font-family: "Nunito Sans", serif;
@@ -70,12 +87,34 @@ h1, h2, h3, h4, h5, h6, p{
 /* Navbar Part Css End */
 /* Banner Part Css Start  */
 #bannerPart{
-    padding: 340px 0px 250px 0px;
-    background: url(../images/slider1.png) no-repeat;
+    padding: 100px 0px 250px 0px;
+    position:relative;    
+}
+.banner1{
+background: url(../images/slider1.png) no-repeat;
+background-size: cover;
+background-position: center;
+}
+.banner2{
+    background: url(../images/slider2.png) no-repeat;
     background-size: cover;
     background-position: center;
-    position:relative;
-    
+}
+.banner3{
+    background: url(../images/slider3.png) no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+
+
+.bannerLeft{
+    padding-bottom:150px;
+}
+
+.bannerleftText{
+    margin-top:200px;
+
 }
 .bannerleftText img{
     margin-right:10px;
@@ -133,19 +172,18 @@ h1, h2, h3, h4, h5, h6, p{
     display: flex;
     flex-direction: column;
     position: absolute;
-    left:5%;
-    bottom:6%;
+    left: 5%;
+    bottom: 26%;
 }
 .socialIcon a{
     font-size:20px;
     color:#15254A;
     padding-bottom:10px;
-
 }
-.realEstate {
+.realEstate, .realEstate2, .realEstate3  {
     position: absolute;
-    top: 12%;
-    left: -12%;
+    top: 10%;
+    left: -5%;
 }
 .boxes {
     display: flex;
@@ -175,7 +213,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* Banner Part Css End */
 /* Dream Part Css Start  */
 #dreamPart {
-    padding-top: 50px;
+    padding-top:10px;
     padding-bottom: 30px;
 }
 .dreamText {
@@ -342,11 +380,15 @@ h1, h2, h3, h4, h5, h6, p{
     margin-top:20px;
     margin-bottom:90px;   
 }
-.mainFocusBottom{
+.mainFocusBottom {
+    width: 93%;
     text-align: center;
-    padding:40px 20px;
-    border:1px solid rgb(240, 238, 238);
-    box-shadow: 2px 3px 8px 4px rgb(229, 229, 229);;
+    padding: 40px 20px;
+    border: 1px solid rgb(240, 238, 238);
+    box-shadow: 5px 4px 8px 2px rgb(159 157 157);
+}
+.mainFocusBottom img{
+    margin:0 auto;
 }
 .mainFocusBottom h5{
     font-family: "Poppins", serif;
@@ -742,6 +784,10 @@ h1, h2, h3, h4, h5, h6, p{
     margin-top: 20px;
     margin-bottom:60px;
 }
+.tableFlex{
+    display:flex;
+    justify-content: space-between;
+}
 .column{
     text-align: center;
 
@@ -760,7 +806,7 @@ h1, h2, h3, h4, h5, h6, p{
     content:'';
     bottom:-10px;
     left:0px;
-    width:120%;
+    width:100%;
     height:3px;
     background:#93A4C1;
 }
@@ -868,6 +914,11 @@ h1, h2, h3, h4, h5, h6, p{
     align-items: center;
     margin-top:30px;
     margin-bottom:30px;
+}
+.neighbourItemFlex{
+    margin-top:30px;
+    display:flex;
+    align-items: center;
 }
 .neItemImg{
     width:40px;
@@ -1349,14 +1400,76 @@ h1, h2, h3, h4, h5, h6, p{
 .footerRightBtn button span:hover{
     background:#000000;
 }
-
-
-
-
-
-
 /* Footer Part Css End */
-/* Looking for a Dream Home Part Css Start */
-/* Looking for a Dream Home Part Css End */
+/* arrows css start */
+.prev{
+    font-size:30px;
+    color:black;
+    position:absolute;
+    top:50%;
+    left:-40px;
+    transform:translateY(-50%);
+    z-index:999;
+}
+.next{
+    font-size:30px;
+    color:rgb(6, 6, 6);
+    position:absolute;
+    top:50%;
+    right:-40px;
+    transform:translateY(-50%);
+}
+
+/* arrows css End */
+
+/* slick slider Dots Css Start  */
+.slick-dots {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    bottom: -69px;
+    transform: translateX(-50%);
+}
+
+.slick-dots li{
+    list-style-type: none;
+    display:inline-block;
+    margin-right:10px;
+    width:20px;
+    height:20px;
+    line-height: 20px;
+    border-radius: 50%;
+    background:#ff0202;
+    border:none;
+}
+.slick-dots li button{
+    color:transparent;
+    width:8px;
+    height:8px;
+    line-height:8px;
+    border-radius: 50%;
+    background:#fff;
+    border:none;
+    opacity:0;
+
+}
+
+.slick-dots li.slick-active button{
+    opacity:1;
+}
+/* slick slider Dots Css Part End  */
+
+/* Back to top Part Css Start */
+
+.back-to-top i{
+    position:fixed;
+    right: 30px;
+    bottom:30px;
+    font-size:50px;
+    color:#FF5A3C;
+    
+}
+
+/* Back to top Part Css End */
 /* Looking for a Dream Home Part Css Start */
 /* Looking for a Dream Home Part Css End */
