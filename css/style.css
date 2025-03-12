@@ -87,8 +87,8 @@ h1, h2, h3, h4, h5, h6, p{
 /* Navbar Part Css End */
 /* Banner Part Css Start  */
 #bannerPart{
-    padding: 100px 0px 250px 0px;
-    position:relative;    
+    padding: 70px 0px 50px 0px;
+    position: relative;    
 }
 .banner1{
 background: url(../images/slider1.png) no-repeat;
@@ -105,15 +105,12 @@ background-position: center;
     background-size: cover;
     background-position: center; 
 }
-
-
-
 .bannerLeft{
     padding-bottom:150px;
 }
 
 .bannerleftText{
-    margin-top:200px;
+    margin-top:100px;
 
 }
 .bannerleftText img{
@@ -128,11 +125,11 @@ background-position: center;
 
 .bannerleftText h1{
     font-family: "Poppins", serif;
-    font-size:65px;
+    font-size:40px;
     font-weight: 700;
     color:#000000;
     padding:25px 0px 30px 0px;
-    line-height:70px;
+    line-height:40px;
 } 
 
  .bannerleftText h1 span{
@@ -148,9 +145,7 @@ background-position: center;
 .bannerBtnIcon{
     display: flex;
     align-items: center;
-    
 }
-
 .bannerBtnIcon i{
     position:absolute;
     top:50%;
@@ -185,30 +180,28 @@ background-position: center;
     top: 10%;
     left: -5%;
 }
-.boxes {
-    display: flex;
-    padding-left: 50px;
+.slider-item {
+    width: 450px;
     position: absolute;
-    bottom: 40px;
+    right: 100px;
+    bottom: 80px;
 }
-.box1{
-    width:145px;
-    height:116px;
-    border:5px solid #ffff;
-    margin-right:20px;
+
+.slideImg {
+    margin-right: 20px; 
 }
-.box2{
-    width:145px;
-    height:116px;
-    border:5px solid #ffff;
-    margin-right:20px;
-    background:#000000;
-}
-.box3{
-    width:145px;
-    height:116px;
+
+.slideImg img {
+    height: 120px;
+    width: 120px;
     border:5px solid #fff;
-} 
+}
+
+.slider-item .slick-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Banner Part Css End */
 /* Dream Part Css Start  */

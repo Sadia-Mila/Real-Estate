@@ -8,10 +8,27 @@
     autoplay:true,
     autoplaySpeed:4000,
     arrows:false,
-    dots:true,
+    dots:false,
     prevArrow:'<i class="fa-solid fa-angle-left prev"></i>',
     nextArrow:'<i class="fa-solid fa-angle-right next"></i>',
+     asNavFor: '.slider-item'
   });
+
+  $('.slider-item').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay:true,
+    asNavFor: '.bannerSlider',
+    arrows:false,
+    dots:false,
+    centerMode: true,
+    focusOnSelect: true,
+    centerPadding: '20px',
+  });
+
+
+
+
 
 
   // Service Part Js start
@@ -94,6 +111,11 @@ $('.back-to-top').on('click', function(event) {
 new WOW().init();
 
 // Wow Js End
+
+// AOS js Start
+
+  AOS.init();
+// AOS js End
 
 
 //	typed js
