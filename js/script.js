@@ -38,7 +38,7 @@ $('.serviceSlider').slick({
   slidesToScroll: 1,
   autoplay:true,
   autoplaySpeed:1000,
-  arrows:true,
+  arrows:false,
   dots:true,
   prevArrow:'<i class="fa-solid fa-angle-left prev"></i>',
   nextArrow:'<i class="fa-solid fa-angle-right next"></i>',
